@@ -14,7 +14,7 @@ function download_and_print
 end
 
 echo "========> Installing dependencies"
-sudo apt-get -qq update; and sudo apt-get -qqy install enscript wget tar
+sudo apt-get -qq update; and sudo apt-get -qqy install enscript wget tar ghostscript
 
 set from $argv[1]
 set to $argv[2]
